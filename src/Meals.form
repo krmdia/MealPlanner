@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Meals">
+  <grid id="27dc6" binding="JPanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="481"/>
+    </constraints>
+    <properties>
+      <inheritsPopupMenu value="false"/>
+      <minimumSize width="400" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3344e" class="javax.swing.JButton" binding="getMealPlanButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get Meal Plan"/>
+        </properties>
+      </component>
+      <scrollpane id="18b7c" binding="ScrollPane">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="329" height="329"/>
+            <maximum-size width="1000" height="1000"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b29f3" class="javax.swing.JTextArea" binding="Text">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="856e8" class="javax.swing.JButton" binding="addMealButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Meal"/>
+        </properties>
+      </component>
+      <component id="3ea9c" class="javax.swing.JButton" binding="ClearTextButton">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <maximum-size width="300" height="300"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Clear Text Field"/>
+        </properties>
+      </component>
+      <component id="a0f43" class="javax.swing.JButton" binding="RemoveMealButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove Meal(s)"/>
+        </properties>
+      </component>
+      <component id="29f86" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="cad8f" class="javax.swing.JButton" binding="getMealsButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get Meals"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
